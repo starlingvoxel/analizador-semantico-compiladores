@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analizador Semántico</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Analizador Semántico</h1>
+  <form id="sourceForm">
+    <label for="sourceCode">Código Fuente:</label><br>
+    <textarea id="sourceCode" name="sourceCode" rows="10" cols="50"></textarea><br>
+    <input type="submit" value="Analizar Semántica">
+  </form>
+  <div id="semanticErrors">
+    <h2>Errores Semánticos:</h2>
+    <textarea id="errorsTextArea" rows="5" cols="50" readonly></textarea>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
